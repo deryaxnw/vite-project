@@ -1,9 +1,10 @@
 button{
-    margin: 2rem;
+    margin: 0rem;
     border: none;
     border-radius: 2rem;
     background-color: rgb(165, 161, 161);
     width: 10%;
+    height: 2rem;
     cursor: pointer;
 }
 
