@@ -11,7 +11,9 @@ import {Link} from 'react-router-dom'
                 <li>
                     <Link to={'/'}>Home</Link>
                 </li>
-                <li>Mercado</li>
+                <li>
+                    <Link to={'/produtos'}>Produtos</Link>
+                </li>
                <li>
                    <Link to={'/sobre'}>Sobre</Link>
                </li>

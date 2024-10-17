@@ -1,4 +1,4 @@
-button{
+.botao{
     margin: 0rem;
     border: none;
     border-radius: 2rem;
@@ -8,7 +8,7 @@ button{
     cursor: pointer;
 }
 
-    button:hover {
+    .botao:hover {
         background-color: blueviolet;
         transform: scale(1.2);
         transition: 1.1s;

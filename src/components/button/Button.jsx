@@ -3,7 +3,7 @@ import "./button.css"
 function Button(){
     return(
         <>
-         <button>
+         <button className="botao">
             SEILA MEN
         </button>
         </>
