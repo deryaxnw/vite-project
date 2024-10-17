@@ -3,13 +3,22 @@
 // import viteLogo from '/vite.svg'
 import './App.css'
 import Home from './pages/home/Home'
-
+import Sobre from './pages/sobre/Sobre'
+import { BrowserRouter, Routes , Route } from 'react-router-dom'
 
 
 function App() {
   return (
     <>
-  <Home></Home>
+    <BrowserRouter>
+    
+    <Routes>
+
+      <Route path='/' element={<Home></Home>}> </Route>
+      <Route path='/sobre' element={<Sobre></Sobre>}> </Route>
+    </Routes>
+    
+    </BrowserRouter>
   </>
   
   )
