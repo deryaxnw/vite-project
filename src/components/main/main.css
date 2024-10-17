@@ -1,0 +1,25 @@
+main{
+    background-color: yellow;
+    height: 50vh;
+    width: 100%;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.596);
+
+        h3 {
+            font-size: 4rem;
+            margin: 2rem;
+        }
+
+        .paragrafo {
+            display: flex;
+            justify-content: center;
+            text-align: justify;
+            width: 100%;
+        }
+
+        p {
+            font-size: 1rem;
+            width: 100%;
+            margin-left: 0.5rem;
+            margin-right: 1.5rem;
+        }
+}
