@@ -1,0 +1,29 @@
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    height: 90%;
+    width: 90%;
+    /* border: 1px solid red; */
+    padding: 1rem;
+}
+
+.texto {
+    text-align: justify;
+    width: 50%;
+    height: 50%;
+    /* border: 1px solid red; */
+}
+
+.image{
+    width: 50%;
+    height: 50%;
+    /* border: 1px solid red; */
+}
+
+img {
+    width: 90%;
+    height: 50%;
+    /* border: 1px solid red; */
+}
